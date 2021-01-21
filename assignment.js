@@ -13,7 +13,7 @@
   console.log(meterResult);
 
   /************ second problem budgetCalcultor  **************/ 
-  function budgetCalculator(product){
+  function budgetCalculator(watch,mobile,leptop){
       if(watchQuantity <0){
           watchQuantity = 0;
       }
@@ -29,11 +29,10 @@
      let totalAmount = watchPrice + mobilePrice + leptopPrice;
      return totalAmount;  
   } 
-    let watchQuantity = 2;
+    let watchQuantity = -2;
     let mobileQuantity = 3;
     let leptopQuantity = 1; 
-    let totalproduct = watchQuantity + mobileQuantity + leptopQuantity;
-    let result = budgetCalculator(totalproduct);
+    let result = budgetCalculator(watchQuantity, mobileQuantity,leptopQuantity);
     console.log(result);
 
     /***************** Problem Number Three  HotleCost Managment **************/
@@ -78,7 +77,7 @@
            }
            return compare;
          }
-         const str ='Tura Najma Sohag HasanAli Nafis'; // array of string
+         const str ='Turaa Najma Sohag  Nafis'; // array of string
          let megaResult = megaFriend(str); // function callin 
          console.log(megaResult);  // output megafriends 
 
