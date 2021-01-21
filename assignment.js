@@ -1,4 +1,4 @@
-// github link
+// https://github.com/Hasan-star-creat/js-assignment-one/blob/main/assignment.js
   
 /************* first problem kilometer to meter *************/
      function kilometerToMeter(kilo){
