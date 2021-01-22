@@ -1,4 +1,4 @@
-// https://github.com/Hasan-star-creat/js-assignment-one/blob/main/assignment.js
+// https://github.com/Hasan-star-creat/js-assignment-one
   
 /************* first problem kilometer to meter *************/
      function kilometerToMeter(kilo){
@@ -39,7 +39,7 @@
     console.log(budgetCalresult);
 
     /***************** Problem Number Of Three  HotleCost Managment **************/
-     function hotelCost(days){
+     function hotelCost(days){ // 
          let totalRent = 0;
          while(days <0){ // this condition negative pargameter return 0
          }
@@ -87,7 +87,3 @@
          console.log(megaResult);  // output megafriends 
 
          /************* Program Is End ***********/
-        
-
-         
-         
